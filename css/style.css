@@ -1,0 +1,511 @@
+/* 1 */
+.section1{
+    background-image: url(../img/hero-bg.jpg);
+    height: 100vh;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+}
+.section1::before{
+    content: '';
+    background-color: rgba(0, 0, 0, 0.582);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+   
+}
+.line1{
+    position: relative;
+}
+.nav-link::before{
+    content: '';
+    width:0%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    transition: all 0.5s ease;
+}
+.line1:hover .nav-link::before{
+    width: 60%;
+}
+.dropdown-menu{
+    opacity: 0;
+    margin-top: 40%;
+    transition: all 0.5s ease;
+
+}
+
+.manu:hover .dropdown-menu{
+    opacity: 1;
+    margin-top: 0%;
+}
+.sec-1{
+    position: relative;
+}
+.sec-1 P::before{
+    content: '';
+    color: white;
+    font-size: 30px;
+    margin-top: 40px;
+    animation: typing1 4s infinite,
+    typing2 4s 3s alternate  ;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.185);
+}
+
+
+
+
+@keyframes typing1{
+    0%{
+        content: '|'
+    }
+    5%{
+        content: 'D|'
+    }
+    10%{
+        content: 'De|'
+    }
+    15%{
+        content: 'Des|'
+    }
+    20%{
+        content: 'Desi|'
+    }
+    25%{
+        content: 'Desig|'
+    }
+    30%{
+        content: 'Design|'
+    }
+    35%{
+        content: 'Designe|'
+    }
+    40%{
+        content: 'Designer|'
+    }
+    45%{
+        content: 'Designe|'
+    }
+    50%{
+        content: 'Design|'
+    }
+    55%{
+        content: 'Desig|'
+    }
+    60%{
+        content: 'Desi|'
+    }
+    65%{
+        content: 'Des|'
+    }
+    70%{
+        content: 'De|'
+    }
+    75%{
+        content: 'D|'
+    }
+    80%{
+        content: '|'
+    }
+}
+@keyframes typing2{
+    0%{
+        content: '|'
+    }
+    5%{
+        content: 'D|'
+    }
+    10%{
+        content: 'De|'
+    }
+    15%{
+        content: 'Dev|'
+    }
+    20%{
+        content: 'Deve|'
+    }
+    25%{
+        content: 'Devel|'
+    }
+    30%{
+        content: 'Develo|'
+    }
+    35%{
+        content: 'Develop|'
+    }
+    40%{
+        content: 'Develope|'
+    }
+    45%{
+        content: 'Developer|'
+    }
+    50%{
+        content: 'Develope|'
+    }
+    55%{
+        content: 'Develop|'
+    }
+    60%{
+        content: 'Develo|'
+    }
+    65%{
+        content: 'Devel|'
+    }
+    70%{
+        content: 'Deve|'
+    }
+    75%{
+        content: 'Dev|'
+    }
+    80%{
+        content: 'De|'
+    }
+    85%{
+        content: 'D|'
+    }
+    90%{
+        content: '|'
+    }
+}
+.sec-1 h1{
+    font-size: 50px;
+}
+
+
+/* 2 */
+.line-blue{
+    position: relative;
+    padding-bottom: 10px;
+}
+.line-blue::before{
+    content: '';
+    width: 120px;
+    height: 3px;
+    background-color:#0078ff ;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+
+/* 3 */
+.title h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+.title{
+    position: relative;
+    padding-bottom: 1px;
+    margin-bottom: 30px;
+}
+.title::before{
+    content: '';
+    width: 48px;
+    height: 5px;
+    background-color: #0078ff;
+    position: absolute;
+    bottom: 0;
+    left: 49%;
+    
+}
+
+.icon1-f{
+    font-size: 40px;
+    border: 9px solid #0078ff;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+.card-2:hover .icon1-f{
+    color: white;
+    background-color: #0077ffe0;
+    border: 9px solid #86bfff;
+}
+.card-2{
+    border-radius: 30px;
+}
+
+/* 4 */
+/* 4 */
+.section4{
+    background-image: url(../img/counters-bg.jpg);
+    position: relative;
+    background-attachment: fixed;
+    
+}
+.section4::before{
+    content: '';
+    background-color: #0077ff8a;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+
+
+.icon-f{
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+    border: 9px solid #88bfff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+/* 5 */
+
+.scale img{
+transition: all 0.8s ease;
+}
+.scale:hover img{
+    transform: scale(1.2);
+}
+
+
+
+
+
+/* 6 */
+.section6{
+    background-image: url(../img/overlay-bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    
+    position: relative;
+}
+.section6::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color:#0077ff67;
+    position: absolute;
+}
+
+.layer {
+    position: relative;
+    
+}
+
+.carousel-indicators [data-bs-target]{
+    border-radius: 50%;
+    width: 19px !important;
+    height: 15px !important;
+}
+
+
+
+/* 7 */
+
+.on-img1,.on-img2,.on-img3{
+    position: relative;
+    height: 100%;
+    z-index: 1;
+
+}
+.on-img1 img, .on-img2 img, .on-img3 img{
+    width: 100%;
+}
+.on-img1::after{
+    content: 'TRAVEL';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -16px;
+    background-color: #0d6efd;
+    border-radius: 5px;
+    padding: 5px 25px;
+    color: white;
+    
+}
+.on-img2::after{
+    content: 'WEB DESIGN';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -16px;
+    background-color: #0d6efd;
+    border-radius: 5px;
+    padding: 1px 15px;
+    color: white;
+    
+}
+.on-img3::after{
+    content: 'WEB DESIGN';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -16px;
+    background-color: #0d6efd;
+    border-radius: 5px;
+    padding: 1px 15px;
+    color: white;
+    
+}
+
+
+
+.section8{
+    background-image: url(../img/overlay-bg.jpg);
+   
+    background-position: center;
+    background-attachment: fixed;
+    
+    position: relative;
+}
+.section8::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color:#0077ff67;
+    position: absolute;
+}
+
+
+
+
+.icon3-f{
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border: 4px solid #88bfff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+    
+}
+.icon-3:hover .icon3-f{
+    color: white;
+    background-color: #0077ffe0;
+    border: 4px solid #86bfff;
+}
+@media all and (min-width: 1024px) and (max-width: 1280px) { 
+    .sec-1 P::before{
+        font-size: 50px;
+    }
+    .icon{
+        width: 41%;
+    }
+    .botn{
+        top: 37%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .icon3{
+        font-size: 24px;
+        border: 4px solid #0078ff;
+        border-radius: 50%;
+        width: 399%;
+        padding: 15%;
+        transition: all 0.5s ease;
+        margin: auto;
+    }
+
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+    .sec-1 P::before{
+        font-size: 45px;
+    } 
+    .icon{
+        width: 52%;
+    }
+    .icon2 {
+        font-size: 22px;
+        width: 41%;
+        
+    }
+    .botn{
+        top: 65%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .icon3{
+        font-size: 35px;
+        border: 4px solid #0078ff;
+        border-radius: 50%;
+        width: 10%;
+        padding: 0%;
+        transition: all 0.5s ease;
+        margin: auto;
+    }
+
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) { 
+    .sec-1 P::before{  
+        font-size: 40px;
+    }
+    .sec-1 h1{
+        font-size:38px;
+    }
+    .icon2{
+        font-size: 60px;
+        border: 9px solid #88bfff;
+        border-radius: 50%;
+        width: 32%;
+        padding:8%;
+        margin-right: 5%;
+        
+        
+    }
+    .botn{
+        top: 56%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .icon3{
+        font-size: 35px;
+        border: 4px solid #0078ff;
+        border-radius: 50%;
+        width: 13%;
+        padding: 0%;
+        transition: all 0.5s ease;
+        margin: auto
+    }
+
+
+}
+
+@media all and (max-width: 480px) { 
+    .sec-1 P::before{
+        font-size: 20px;
+    }
+    .sec-1 h1{
+        font-size:38px;
+    }
+    .icon{
+        width: 40%;
+    }
+   
+    .botn{
+        top: 42%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .icon3{
+        font-size: 35px;
+        border: 4px solid #0078ff;
+        border-radius: 50%;
+        width: 18%;
+        padding: 1%;
+        transition: all 0.5s ease;
+        margin: auto
+    }
+
+}
+
